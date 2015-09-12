@@ -1,0 +1,31 @@
+{
+  "name": "github-webhook-receiver",
+  "version": "0.0.1",
+  "description": "GitHub Webhook Receiver",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/koshigoe/github-webhook-receiver.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "buffer-equal-constant-time": "^1.0.1",
+    "express": "^4.13.3",
+    "media-typer": "^0.3.0",
+    "multer": "^1.0.3",
+    "raw-body": "^2.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2",
+    "supertest": "^1.1.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": "4.0.x"
+  }
+}

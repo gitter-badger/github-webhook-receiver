@@ -1,0 +1,16 @@
+{
+  "name": "GitHub Webhook Receiver",
+  "description": "GitHub Webhook Receiver",
+  "website": "https://github.com/koshigoe/github-webhook-receiver",
+  "repository": "https://github.com/koshigoe/github-webhook-receiver",
+  "success_url": "/",
+  "scripts": {
+  },
+  "env": {
+    "GITHUB_WEBHOOK_SECRET": {
+      "generator": "secret"
+    },
+    "GITHUB_TOKEN": {
+    }
+  }
+}
